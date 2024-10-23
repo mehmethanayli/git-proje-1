@@ -1,6 +1,12 @@
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
-git init
-git status
-git add *
-git commit -m "Mesaj"
+git config --global user.email "you@example.com" --> Global olarak git kullanıcı mail adresi tanımlanır. Projeye 						     özgü olsun isteniyorsa --global kullanılmaz.
+
+git config --global user.name "Your Name" -->Global olarak git kullanıcı adı tanımlanır. Projeye 						     özgü olsun isteniyorsa --global kullanılmaz.
+
+git init --> Projenin başlatılması için kullanılır. Her proje için bir defa çalıştırılır.
+
+git status  --> Projenin anlık durumunu gösterir.
+
+git add * --> Wd üzerindeki değişiklikleri staging area alanına aktarır. Yani repoya gönderim için hazırlar.
+
+
+git commit -m "Mesaj"  --> Yaptığımız değişiklikleri anlatan bir mesajla, repoya kayıt işlemi gerçekleştirir.

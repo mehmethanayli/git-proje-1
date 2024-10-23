@@ -8,5 +8,8 @@ git status  --> Projenin anlık durumunu gösterir.
 
 git add * --> Wd üzerindeki değişiklikleri staging area alanına aktarır. Yani repoya gönderim için hazırlar.
 
-
 git commit -m "Mesaj"  --> Yaptığımız değişiklikleri anlatan bir mesajla, repoya kayıt işlemi gerçekleştirir.
+
+git -log --> Projedeki commitlerin listesini ve detaylı bilgisini verir.
+
+git log --oneline --> Projedeki commitlerin listesini ve açıklamalarının özet olarak bilgisini verir.

@@ -13,3 +13,5 @@ git commit -m "Mesaj"  --> Yaptığımız değişiklikleri anlatan bir mesajla, 
 git -log --> Projedeki commitlerin listesini ve detaylı bilgisini verir.
 
 git log --oneline --> Projedeki commitlerin listesini ve açıklamalarının özet olarak bilgisini verir.
+
+--
